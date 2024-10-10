@@ -1,0 +1,26 @@
+import random
+
+# List of restaurants in Houston, TX
+restaurants = [
+    "Pappadeaux's Seafood Kitchen",
+    "The Rustic",
+    "Nobu Houston",
+    "Kata Robata",
+    "Hugo's",
+    "BB's Cafe",
+    "La Griglia",
+    "The Breakfast Klub",
+    "Mamma Mia",
+    "Ruggles Green",
+    "Goode Company BBQ",
+    "Jinya Ramen Bar",
+    "Mikoto",
+    "The Shake Shack",
+    "Buffalo Bayou Brewing Co."
+]
+
+def get_random_restaurant():
+    return random.choice(restaurants)
+
+if __name__ == "__main__":
+    print("Random Restaurant in Houston, TX:", get_random_restaurant())
